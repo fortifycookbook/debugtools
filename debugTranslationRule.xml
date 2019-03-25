@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RulePack xmlns="xmlns://www.fortifysoftware.com/schema/rules">
+    <RulePackID>DEBUG_TRANSLATION_RULE_PACK_1820</RulePackID>
+    <SKU>SKU-/Users/zacharylewis/Desktop/custom-rule</SKU>
+    <Name><![CDATA[/Users/zacharylewis/Desktop/custom-rule]]></Name>
+    <Version>1.0</Version>
+    <Description><![CDATA[]]></Description>
+    <Rules version="18.20">
+        <RuleDefinitions>
+            <StructuralRule formatVersion="18.20" language="cpp">
+                <RuleID>Fortify_Debug_CPP_Rule01</RuleID>
+                 <MetaInfo>
+                    <Group name="Accuracy">4</Group>
+                    <Group name="Impact">5</Group>
+                    <Group name="RemediationEffort">5</Group>
+                    <Group name="Probability">5</Group>
+                    <Group name="audience">targeted,medium,broad,dev,fod</Group>
+                </MetaInfo>
+                <VulnKingdom>Fortify Debug Translation</VulnKingdom>
+                <VulnCategory>Debug Rule CPP</VulnCategory>
+                <VulnSubcategory>Translation Rule CPP</VulnSubcategory>
+                <DefaultSeverity>4.0</DefaultSeverity>
+                <Description >
+                    <Explanation append="true"><![CDATA[Simple Debug Translation Rule custom rule.]]></Explanation>
+                </Description>
+                <Predicate><![CDATA[
+                Construct fa: 
+            ]]></Predicate>
+            </StructuralRule>
+            <StructuralRule formatVersion="18.20" language="java">
+                <RuleID>Fortify_Debug_Java_Rule02</RuleID>
+                 <MetaInfo>
+                    <Group name="Accuracy">4</Group>
+                    <Group name="Impact">5</Group>
+                    <Group name="RemediationEffort">5</Group>
+                    <Group name="Probability">5</Group>
+                    <Group name="audience">targeted,medium,broad,dev,fod</Group>
+                </MetaInfo>
+                <VulnKingdom>Fortify Debug Translation</VulnKingdom>
+                <VulnCategory>Debug Rule Java</VulnCategory>
+                <VulnSubcategory>Translation Rule Java</VulnSubcategory>
+                <DefaultSeverity>4.0</DefaultSeverity>
+                <Description >
+                    <Explanation append="true"><![CDATA[Simple Debug Translation Rule custom rule.]]></Explanation>
+                </Description>
+                <Predicate><![CDATA[
+                Construct fa: 
+            ]]></Predicate>
+            </StructuralRule>
+            <StructuralRule formatVersion="18.20" language="javascript">
+                <RuleID>Fortify_Debug_JavaScript_Rule03</RuleID>
+                 <MetaInfo>
+                    <Group name="Accuracy">4</Group>
+                    <Group name="Impact">5</Group>
+                    <Group name="RemediationEffort">5</Group>
+                    <Group name="Probability">5</Group>
+                    <Group name="audience">targeted,medium,broad,dev,fod</Group>
+                </MetaInfo>
+                <VulnKingdom>Fortify Debug Translation</VulnKingdom>
+                <VulnCategory>Debug Rule Javascript</VulnCategory>
+                <VulnSubcategory>Translation Rule Javascript</VulnSubcategory>
+                <DefaultSeverity>4.0</DefaultSeverity>
+                <Description >
+                    <Explanation append="true"><![CDATA[Simple Debug Translation Rule custom rule.]]></Explanation>
+                </Description>
+                <Predicate><![CDATA[
+                Construct fa: 
+            ]]></Predicate>
+            </StructuralRule>
+            <StructuralRule formatVersion="18.20" language="dotnet">
+                <RuleID>Fortify_Debug_DotNet_Rule04</RuleID>
+                 <MetaInfo>
+                    <Group name="Accuracy">4</Group>
+                    <Group name="Impact">5</Group>
+                    <Group name="RemediationEffort">5</Group>
+                    <Group name="Probability">5</Group>
+                    <Group name="audience">targeted,medium,broad,dev,fod</Group>
+                </MetaInfo>
+                <VulnKingdom>Fortify Debug Translation</VulnKingdom>
+                <VulnCategory>Debug Rule DotNet</VulnCategory>
+                <VulnSubcategory>Translation Rule DotNet</VulnSubcategory>
+                <DefaultSeverity>4.0</DefaultSeverity>
+                <Description >
+                    <Explanation append="true"><![CDATA[Simple Debug Translation Rule custom rule.]]></Explanation>
+                </Description>
+                <Predicate><![CDATA[
+                Construct fa: 
+            ]]></Predicate>
+            </StructuralRule>
+           
+        </RuleDefinitions>
+    </Rules>
+</RulePack>
